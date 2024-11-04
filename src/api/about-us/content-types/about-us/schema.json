@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "page_name": {
+      "type": "string"
+    },
+    "about_us": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.banner-section",
+        "blocks.service-card-section",
+        "blocks.call-cta-section"
+      ]
+    }
+  }
+}

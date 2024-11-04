@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_social_medias",
+  "info": {
+    "displayName": "SocialMedia"
+  },
+  "options": {},
+  "attributes": {
+    "linkedin": {
+      "type": "string"
+    },
+    "twitter_x": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}

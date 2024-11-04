@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_service_card_sections",
+  "info": {
+    "displayName": "ServiceCardSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "service_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.service-card"
+    }
+  }
+}

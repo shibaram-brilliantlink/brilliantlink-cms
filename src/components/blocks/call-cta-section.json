@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_blocks_call_cta_sections",
+  "info": {
+    "displayName": "CallCtaSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

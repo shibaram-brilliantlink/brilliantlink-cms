@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cards_list_cards",
+  "info": {
+    "displayName": "ListCard"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "sub_heading": {
+      "type": "string",
+      "maxLength": 100
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
+    }
+  }
+}

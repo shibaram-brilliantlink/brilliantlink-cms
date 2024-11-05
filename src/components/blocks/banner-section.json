@@ -1,7 +1,8 @@
 {
   "collectionName": "components_blocks_banner_sections",
   "info": {
-    "displayName": "BannerSection"
+    "displayName": "BannerSection",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,13 +12,13 @@
     "sub_heading": {
       "type": "string"
     },
-    "description": {
-      "type": "blocks"
-    },
     "image": {
       "type": "component",
       "repeatable": false,
       "component": "shared.image"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }

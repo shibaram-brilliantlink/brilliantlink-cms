@@ -3,10 +3,11 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface BlocksBannerSection extends Struct.ComponentSchema {
   collectionName: 'components_blocks_banner_sections';
   info: {
+    description: '';
     displayName: 'BannerSection';
   };
   attributes: {
-    description: Schema.Attribute.Blocks;
+    description: Schema.Attribute.RichText;
     heading: Schema.Attribute.String;
     image: Schema.Attribute.Component<'shared.image', false>;
     sub_heading: Schema.Attribute.String;

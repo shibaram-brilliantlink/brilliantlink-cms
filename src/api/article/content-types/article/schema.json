@@ -32,11 +32,7 @@
       "type": "media",
       "multiple": false,
       "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ]
+      "allowedTypes": ["images", "files", "videos"]
     },
     "author": {
       "type": "relation",
@@ -52,10 +48,7 @@
     },
     "blocks": {
       "type": "dynamiczone",
-      "components": [
-        "shared.rich-text",
-        "shared.slider"
-      ]
+      "components": ["shared.rich-text", "shared.slider"]
     },
     "seo": {
       "type": "component",
